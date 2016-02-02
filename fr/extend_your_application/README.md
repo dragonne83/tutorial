@@ -38,7 +38,7 @@ Nous allons tout d'abord ajouter un lien à l'intérieur du fichier `blog/templa
 
 `blog.views.post_detail` est le chemin d'accès vers la *vue* `post_detail` que nous aimerions créer. Attention : `blog` désigne notre application (le dossier `blog`) et `views` le fichier `views.py`. Enfin, `post_detail` est le nom de notre *vue*.
 
-Si nous essayons d'aller à http://127.0.0.1:8000/, nous allons rencontrez une erreur : nous n'avons pas d'URL ou de *vue* pour `post_detail`. L'erreur ressemble à ceci :
+Si nous essayons d'aller à http://127.0.0.1:8000/, nous allons rencontrer une erreur : nous n'avons pas d'URL ou de *vue* pour `post_detail`. L'erreur ressemble à ceci :
 
 ![Erreur NoReverseMatch][1]
 
